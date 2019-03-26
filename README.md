@@ -1,2 +1,4 @@
 # Handwritten-digits-recognition-using-python-deep-learning
-Handwritten digits recognition using deep learning
+Data was taken from keras built-in MNIST dataset having 60,000 training images and 10,000 test images.The model showed accuracy>98% on UNSEEN data which is pretty incredible. This shows the power of deep neural networks. I only used 3 layers and 1034 nodes.
+I can see that my model learns the data quite fast and its prediction improves with each epochs. Although I see some overfitting, I think this is acceptable. However, this can be further examined by changing Dropout value and/or changing number of layers and number of nodes.
+Some numbers that the model could not capture was really not straightforward. For instance, see the number 2 that the model predicted 7- it almost looks like 7. This whole model can be further investigated using Deep Convolutional Neural Network but this is beyond the scope of my laptop as CNN requires very high system requirements!
